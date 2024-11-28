@@ -13,5 +13,7 @@ def kaupk_aritmetika(*args: int | float, operacija="suma"):
     return ress
 
 
-res = kaupk_aritmetika(10, operacija="suma")
+ivestis = int(input("iveskite skaiciu 1: "))
+ivestis1 = int(input("iveskite skaiciu 2: "))
+res = kaupk_aritmetika(ivestis, ivestis1, operacija="suma")
 print(f"atsakymas {res}")
