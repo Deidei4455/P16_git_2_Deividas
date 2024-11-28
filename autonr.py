@@ -8,5 +8,6 @@ def check_autonr_a(numeris: str):
         return False
 
 
-res = check_autonr_a("ABC126")
+ivestis = input("iveskite auto numeri")
+res = check_autonr_a(str(ivestis))
 print(res)

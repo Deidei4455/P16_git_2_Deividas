@@ -14,4 +14,4 @@ def kaupk_aritmetika(*args: int | float, operacija="suma"):
 
 
 res = kaupk_aritmetika(10, operacija="suma")
-print(res)
+print(f"atsakymas {res}")
